@@ -88,7 +88,7 @@ function App() {
       status: "done",
       endTime: performance.now(),
     }))
-  }, [render, config])
+  }, [render, config, clear])
 
 
   useEffect(() => {
